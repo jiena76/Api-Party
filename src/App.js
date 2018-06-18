@@ -8,12 +8,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>
+        <div className="App-header">
+          <h3>Ain't no party like an</h3>
           <h1>Api-Party</h1>
-          <h2></h2>
         </div>
 
-        <ul>
+        <ul className="navLinks">
           <li>
             <NavLink to="/github">GitHub</NavLink>
           </li>
