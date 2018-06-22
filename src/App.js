@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {NavLink, Route, Switch} from "react-router-dom";
+import {Route, Switch, NavLink} from "react-router-dom";
 
 import './App.css';
 import Github from './Github'
@@ -13,6 +13,7 @@ class App extends Component {
           <h1>Api-Party</h1>
         </div>
 
+        {/* NavLink: has "class=Active" where clicked links may appear purple */}
         <ul className="navLinks">
           <li>
             <NavLink to="/github">GitHub</NavLink>
